@@ -1,3 +1,7 @@
+# Dashboard Preview
+![Screenshot 2023-10-23 112214](https://github.com/ipratik35/Hr_analytics_Using_SQL_and_PowerBI/assets/125380171/c84ad117-4a04-49e3-bbb8-906eaa1bf849)
+
+![Screenshot 2023-10-23 111159](https://github.com/ipratik35/Hr_analytics_Using_SQL_and_PowerBI/assets/125380171/bc2b906c-90e0-4936-b458-fcb2f4627c06)
 
 # Hr_analytics_Using_SQL_and_PowerBI
 # Data - HR Data with over 22000 rows from the year 2000 to 2020.
