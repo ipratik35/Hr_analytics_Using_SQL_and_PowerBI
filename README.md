@@ -8,32 +8,36 @@
 # Data Cleaning & Analysis - MySQL Workbench
 # Data Visualization - PowerBI
 
-# Questions
-1. What is the gender breakdown of employees in the company?
-2. What is the race/ethnicity breakdown of employees in the company?
-3. What is the age distribution of employees in the company?
-4. How many employees work at headquarters versus remote locations?
-5. What is the average length of employment for employees who have been terminated?
-6. How does the gender distribution vary across departments and job titles?
-7. What is the distribution of job titles across the company?
-8. Which department has the highest turnover rate?
-9. What is the distribution of employees across locations by state?
-10. How has the company's employee count changed over time based on hire and term dates?
-11. What is the tenure distribution for each department?
 
-# Summary of Findings
-1. There are more male employees
-2. White race is the most dominant while Native Hawaiian and American Indian are the least dominant.
-3. The youngest employee is 20 years old and the oldest is 57 years old
-4. 5 age groups were created (18-24, 25-34, 35-44, 45-54, 55-64). A large number of employees were between 25-34 followed by 35-44 while the smallest group was 55-64.
-5. A large number of employees work at the headquarters versus remotely.
-6. The average length of employment for terminated employees is around 7 years.
-7. The gender distribution across departments is fairly balanced but there are generally more male than female employees.
-8. The Marketing department has the highest turnover rate followed by Training. The least turn over rate are in the Research and development, Support and Legal departments.
-9. A large number of employees come from the state of Ohio.
-10. The net change in employees has increased over the years.
-11. The average tenure for each department is about 8 years with Legal and Auditing having the highest and Services, Sales and Marketing having the lowest.
+# Problem:
+The problem centered around analyzing a dataset of 22,000+ employee records spanning from 2000 to 2020, 
+with the goal of extracting valuable insights into HR trends. 
+Specific questions were posed regarding employee demographics, distribution across departments and locations, turnover rates, and changes in employee count over time.
 
-# Limitations
-Some records had negative ages and these were excluded during querying(967 records). Ages used were 18 years and above.
-Some termdates were far into the future and were not included in the analysis(1599 records). The only term dates used were those less than or equal to the current date.
+# Solution:
+The high-level solution involved using SQL in MySQL Workbench for data cleaning and analysis and Power BI for creating an insightful dashboard. 
+The objective was to derive answers to key HR-related questions by exploring the dataset and visualizing the findings in a comprehensive Power BI dashboard.
+
+# How I Approached It:
+The approach began with thorough data cleaning and analysis in MySQL Workbench, addressing issues such as negative ages and future term dates. 
+A series of SQL queries were executed to extract relevant information. The data was then imported into Power BI for visualization. 
+Each question was tackled systematically, with appropriate SQL queries extracting the required data, and Power BI was used to create visualizations for easy interpretation.
+
+
+# What I Found:
+
+1. The gender breakdown showed a higher number of male employees.
+2. White was the dominant race, while Native Hawaiian and American Indian were the least represented.
+3. The age distribution revealed the youngest and oldest employees, and age groups were created to show the distribution.
+4. A significant number of employees worked at headquarters versus remote locations.
+5. The average length of employment for terminated employees was approximately 7 years.
+6. Gender distribution across departments was generally balanced, with a slight male predominance.
+7. The Marketing department had the highest turnover rate, while Research and Development, Support, and Legal had the lowest.
+8. Many employees came from the state of Ohio.
+9. The company's employee count increased over the years.
+10. The average tenure for each department was around 8 years, with Legal and Auditing having the highest and Services, Sales, and Marketing having the lowest.
+
+
+# Conclusion:
+In conclusion, the project effectively addressed HR-related questions by employing SQL for data cleaning and analysis and Power BI for visualization. Valuable insights were gained into employee demographics, distribution, turnover rates, and changes over time. 
+The findings can serve as a basis for informed HR decision-making, while the limitations, such as excluding records with negative ages and future term dates, were acknowledged and documented for transparency. Overall, the project demonstrated the power of combining SQL and Power BI for comprehensive HR analytics.
